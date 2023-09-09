@@ -21,14 +21,13 @@ int main(){
  int rounds;
  cout<<"Enter the number of rounds: ";
  cin>>rounds;
- int p=rounds-1;
-
+ int p=1;
 
  map <int, int> wins;
  while(rounds){
      map<int,int > count;
      vector <int> bids(players);
-     cout<<"The amount bid by princes' in round "<<rounds-p<<" are- "<<endl;
+     cout<<"The amount bid by princes' in round "<<p<<" are- "<<endl;
 
      //the prince who bids in the end is eliminated as choices are less than the total number of princes
      for(int i=0;i<players;i++){
