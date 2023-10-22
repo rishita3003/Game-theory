@@ -1,1 +1,1 @@
-# Game-theory - PROJECT
+# Game-theory - Project
